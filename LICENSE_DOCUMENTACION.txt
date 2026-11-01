@@ -1,0 +1,3 @@
+Licencia pendiente de decisión de la autora.
+No se concede permiso de reutilización del texto académico mediante este archivo.
+Antes de hacer público el repositorio, definir licencia para documentación y otra para código si se desea permitir su reutilización.
