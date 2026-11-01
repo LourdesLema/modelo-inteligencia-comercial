@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite este repositorio académico de acuerdo con las normas institucionales y complete la URL después de su publicación en GitHub."
+message: "Cite este repositorio académico de acuerdo con las normas institucionales."
 title: "Modelo de inteligencia comercial para la estimación de ventas futuras y priorización de clientes mediante analítica predictiva"
 authors:
   - family-names: Lema Zambrano
@@ -10,3 +10,4 @@ abstract: >-
   Repositorio académico que documenta un estudio retrospectivo con datos públicos
   para estimar ventas netas futuras por cliente y comparar criterios de priorización
   bajo escenarios hipotéticos de capacidad comercial.
+repository-code: "https://github.com/LourdesLema/modelo-inteligencia-comercial"
