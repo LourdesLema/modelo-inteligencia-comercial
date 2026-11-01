@@ -20,7 +20,7 @@ Se utiliza *Online Retail II*, publicado por Chen (2012) en UCI Machine Learning
 
 La unidad de análisis es un cliente en una fecha de corte. La elegibilidad se establece exclusivamente con información anterior al corte. Se emplean una ventana histórica de 180 días y un objetivo de ventas netas para los 90 días siguientes. Se consideran seis cortes entre junio de 2010 y septiembre de 2011; marzo y junio de 2011 se utilizan para validación y septiembre de 2011 se reserva para la evaluación final.
 
-Los cinco predictores son recencia desde la última compra válida, frecuencia de compras válidas, importe histórico neto, valor promedio neto por compra y país.
+Los cinco predictores son recencia desde la última compra válida, frecuencia de compras válidas, diversidad de productos, importe histórico neto y valor promedio neto por compra. La referencia histórica H corresponde a las ventas netas de los 90 días previos y se utiliza como criterio comparativo, no como predictor.
 
 Se comparan regresión lineal y Random Forest Regressor. La selección de configuración se basa en el promedio simple del MAE de los dos cortes de validación; se seleccionó RF09. La prueba final no se utilizó para elegir modelos ni ajustar hiperparámetros. MAE es la métrica principal; RMSE y R² son complementarias.
 
